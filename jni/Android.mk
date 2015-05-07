@@ -5,7 +5,7 @@ MY_LOCAL_PATH = $(LOCAL_PATH)
 # building x264 library 
 #
 include $(CLEAR_VARS)
-LOCAL_MODULE    := libx264_pre
+LOCAL_MODULE    := MediaEncoder
 LOCAL_SRC_FILES := x264/libx264.a
 include $(PREBUILT_STATIC_LIBRARY)
 

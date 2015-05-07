@@ -11,7 +11,8 @@ int adpcmDecode(unsigned char *inBuffer, int length, unsigned char *pcmData) {
     }
 
     int j = 0;
-    for(int i = 0; i < length; i++) {
+    int i;
+    for(i = 0; i < length; i++) {
         unsigned char code;
         unsigned short pcm;
 
